@@ -7,6 +7,7 @@ import static org.junit.Assert.assertFalse;
 import static ru.atom.enums.Country.Russia;
 import static ru.atom.enums.Country.USA;
 import static ru.atom.enums.Gender.Female;
+import static ru.atom.enums.Gender.Other;
 
 
 /**

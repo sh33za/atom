@@ -11,6 +11,8 @@ public class MessageTest {
     @Test
     public void saveTo() throws Exception {
         Storable smthToSave = new Message("Perfect content");
+
+
         smthToSave.saveTo(new File("path to file"));
 
         assertTrue(smthToSave instanceof Message); // <-- OK
