@@ -2,6 +2,9 @@ package ru.atom.geometry;
 
 import ru.atom.geometry.Point;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *  ^ Y
  *  |
@@ -12,7 +15,7 @@ import ru.atom.geometry.Point;
  */
 
 public final class Geometry {
-    
+
     private Geometry() {
     }
 
@@ -24,9 +27,7 @@ public final class Geometry {
      * @return new Bar
      */
     public static Collider createBar(int firstCornerX, int firstCornerY, int secondCornerX, int secondCornerY) {
-        Point firstCornerPoint = new Point(firstCornerX, firstCornerY);
-        Point secondCornerPoint = new Point(secondCornerX, secondCornerY);
-        
+        throw new UnsupportedOperationException();
     }
 
     /**
